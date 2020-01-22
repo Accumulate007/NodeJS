@@ -1,0 +1,22 @@
+{
+  "name": "imooc-node-web-server-20191205",
+  "version": "1.0.0",
+  "description": "Learn NodeJS,Start at 2019-12-05",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=dev nodemon ./blog-01/bin/www.js",
+    "prd": "cross-env NODE_ENV=productioin nodemon ./blog-01/bin/www.js"
+  },
+  "keywords": [
+    "Node"
+  ],
+  "author": "chen",
+  "license": "ISC",
+  "devDependencies": {
+    "mysql": "^2.17.1"
+  },
+  "dependencies": {
+    "redis": "^2.8.0"
+  }
+}
