@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+</head>
+<body>
+    <h1>About, MEadowlark Travel</h1>
+    <form action="/process" method="POST">
+        <input type="hidden" name="hush" value="hidden, bug not secret!">
+        <input type="hidden" name="_csrf" value="csrf-token-aaa">
+        <div>
+            <label for="fieldColor">Your favorite color:</label>
+            <input type="text" id="fieldColor" name="color"/>
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+
+    <h5>Ajax 方式提交的表单</h5>
+    <form action="/ajax-form" method="POST">
+        <input type="hidden" name="hush" value="hidden, bug not secret!">
+        <input type="hidden" name="_csrf" value="csrf-token-aaa">
+        <div>
+            <label for="fieldColor">Your favorite color:</label>
+            <input type="text" id="fieldColor" name="color"/>
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
